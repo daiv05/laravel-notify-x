@@ -1,5 +1,5 @@
 {
-    "name": "mckenziearts/laravel-notify",
+    "name": "daiv/laravel-notify",
     "description": "Flexible flash notifications for Laravel",
     "keywords": [
         "Laravel",
@@ -8,13 +8,17 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/mckenziearts/laravel-notify/issues",
-        "source": "https://github.com/mckenziearts/laravel-notify"
+        "issues": "https://github.com/daiv05/laravel-notify-x/issues",
+        "source": "https://github.com/daiv05/laravel-notify-x"
     },
     "authors": [
         {
             "name": "Arthur Monney",
             "email": "monneylobe@gmail.com"
+        },
+        {
+            "name": "David Deras",
+            "email": "davidderas50@gmail.com"
         }
     ],
     "require": {
@@ -28,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mckenziearts\\Notify\\": "src/"
+            "Daiv\\Notify\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -37,10 +41,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mckenziearts\\Notify\\LaravelNotifyServiceProvider"
+                "Daiv\\Notify\\LaravelNotifyServiceProvider"
             ],
             "aliases": {
-                "Notify": "Mckenziearts\\Notify\\Facades\\LaravelNotify"
+                "Notify": "Daiv\\Notify\\Facades\\LaravelNotify"
             }
         }
     },

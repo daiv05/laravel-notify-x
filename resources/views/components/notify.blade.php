@@ -15,6 +15,8 @@
 
     {{ session()->forget('notify.message') }}
 
+    @include('notify::notifications.flashbox')
+
     <script>
         var notify = {
             timeout: "{{ config('notify.timeout') }}",

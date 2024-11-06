@@ -1,10 +1,10 @@
 <?php
 
-namespace Mckenziearts\Notify;
+namespace Daiv\Notify;
 
 use Exception;
-use Mckenziearts\Notify\Exceptions\MissingPresetNotificationException;
-use Mckenziearts\Notify\Storage\Session;
+use Daiv\Notify\Exceptions\MissingPresetNotificationException;
+use Daiv\Notify\Storage\Session;
 
 final class LaravelNotify
 {

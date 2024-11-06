@@ -1,6 +1,6 @@
 <?php
 
-namespace Mckenziearts\Notify\Facades;
+namespace Daiv\Notify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

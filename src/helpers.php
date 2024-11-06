@@ -1,6 +1,6 @@
 <?php
 
-use Mckenziearts\Notify\LaravelNotify;
+use Daiv\Notify\LaravelNotify;
 
 if (! function_exists('notify')) {
     function notify(string $message = null, string $title = null): LaravelNotify
@@ -45,13 +45,13 @@ if (! function_exists('emotify')) {
 if (! function_exists('notifyJs')) {
     function notifyJs(): string
     {
-        return '<script type="text/javascript" src="'.asset('vendor/mckenziearts/laravel-notify/js/notify.js').'"></script>';
+        return '<script type="text/javascript" src="'.asset('vendor/daiv/laravel-notify/js/notify.js').'"></script>';
     }
 }
 
 if (! function_exists('notifyCss')) {
     function notifyCss(): string
     {
-        return '<link rel="stylesheet" type="text/css" href="'.asset('vendor/mckenziearts/laravel-notify/dist/notify.css').'"/>';
+        return '<link rel="stylesheet" type="text/css" href="'.asset('vendor/daiv/laravel-notify/dist/notify.css').'"/>';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Mckenziearts\Notify\LaravelNotify;
+use Daiv\Notify\LaravelNotify;
 use PHPUnit\Framework\TestCase;
 
 class NotifyTest extends TestCase
@@ -11,7 +11,7 @@ class NotifyTest extends TestCase
 
     public function setUp(): void
     {
-        $this->session = Mockery::spy('Mckenziearts\Notify\Storage\Session');
+        $this->session = Mockery::spy('Daiv\Notify\Storage\Session');
         $this->notify = new LaravelNotify($this->session);
     }
 }

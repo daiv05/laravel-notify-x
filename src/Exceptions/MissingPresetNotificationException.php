@@ -1,6 +1,6 @@
 <?php
 
-namespace Mckenziearts\Notify\Exceptions;
+namespace Daiv\Notify\Exceptions;
 
 use Exception;
 
