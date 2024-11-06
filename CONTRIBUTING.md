@@ -2,7 +2,7 @@
 
 Contributions are welcome and will be fully credited.
 
-Contributions are accepted via Pull Requests on [Github](https://github.com/mckenziearts/laravel-notify).
+Contributions are accepted via Pull Requests on [Github](https://github.com/daiv/laravel-notify-x).
 
 ## Pull Requests
 

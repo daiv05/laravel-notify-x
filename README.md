@@ -1,9 +1,9 @@
 <p align="center"><img src="https://laravel.cm/images/laravel-notify.svg"></p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/mckenziearts/laravel-notify"><img src="https://poser.pugx.org/mckenziearts/laravel-notify/d/total.svg" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/mckenziearts/laravel-notify"><img src="https://poser.pugx.org/mckenziearts/laravel-notify/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/mckenziearts/laravel-notify"><img src="https://poser.pugx.org/mckenziearts/laravel-notify/license.svg" alt="License"></a>
+    <a href="https://packagist.org/packages/daiv/laravel-notify"><img src="https://poser.pugx.org/daiv/laravel-notify/d/total.svg" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/daiv/laravel-notify"><img src="https://poser.pugx.org/daiv/laravel-notify/v/stable.svg" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/daiv/laravel-notify"><img src="https://poser.pugx.org/daiv/laravel-notify/license.svg" alt="License"></a>
 </p>
 
 ## Introduction
@@ -28,7 +28,7 @@ If you need Android version please try this package [Aesthetic Dialogs](https://
 You can install the package using composer
 
 ```sh
-$ composer require mckenziearts/laravel-notify
+$ composer require daiv/laravel-notify
 ```
 
 Then add the service provider to `config/app.php`. In Laravel versions 5.5 and beyond, this step can be skipped if package auto-discovery is enabled.
@@ -210,10 +210,10 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](LICENCE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/mckenziearts/laravel-notify.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/mckenziearts/laravel-notify.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/daiv/laravel-notify.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/daiv/laravel-notify.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/mckenziearts/laravel-notify
-[link-downloads]: https://packagist.org/packages/mckenziearts/laravel-notify
+[link-packagist]: https://packagist.org/packages/daiv/laravel-notify
+[link-downloads]: https://packagist.org/packages/daiv/laravel-notify
 [link-author]: https://twitter.com/MonneyArthur
 [link-contributors]: ../../contributors
